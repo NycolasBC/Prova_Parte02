@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CartasNoel.Catagolo.WebApi.props" />
+</Project>

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TNhRPndq2KudbFsDZVLTukk95DjQF1d+Zggf9NFwNE6m5Qx4jEjDG2E024CyLtvIkfz5TePWIUzmdmGMw/hF7Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\n\\Documents\\Repositorios\\Uniaraxa\\4° Periodo\\Desenvolvimento Web\\Provas\\Prova_Parte2\\CartasNoel.Catagolo.Application\\CartasNoel.Catagolo.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\n\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\n\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

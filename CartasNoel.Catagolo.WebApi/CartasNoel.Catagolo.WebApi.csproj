@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CartasNoel.Catagolo.Application\CartasNoel.Catagolo.Application.csproj" />
+    <ProjectReference Include="..\CartasNoel.Catagolo.Domain\CartasNoel.Catagolo.Domain.csproj" />
+    <ProjectReference Include="..\CartasNoel.Catagolo.Persistance\CartasNoel.Catagolo.Persistance.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{916AC9C6-09AC-450D-87B5-39C95BF6E5D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{276E2213-9E84-462D-BA7F-00B4CD977A39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistance", "Persistance", "{B9C3554B-0215-49B5-9266-6D6A3839B05F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{ADF41AFF-531C-4708-889B-07EC07E773D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartasNoel.Catagolo.Application", "CartasNoel.Catagolo.Application\CartasNoel.Catagolo.Application.csproj", "{D024B811-4468-4666-970A-89210156E624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartasNoel.Catagolo.Domain", "CartasNoel.Catagolo.Domain\CartasNoel.Catagolo.Domain.csproj", "{94BCB93D-96DB-41A3-8816-1068469D792E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartasNoel.Catagolo.Persistance", "CartasNoel.Catagolo.Persistance\CartasNoel.Catagolo.Persistance.csproj", "{6B47D149-0F75-4EC9-9D73-EE8CBD604034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartasNoel.Catagolo.WebApi", "CartasNoel.Catagolo.WebApi\CartasNoel.Catagolo.WebApi.csproj", "{2DE537D7-B84D-45E5-A828-FA676E6070A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D024B811-4468-4666-970A-89210156E624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D024B811-4468-4666-970A-89210156E624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D024B811-4468-4666-970A-89210156E624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D024B811-4468-4666-970A-89210156E624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94BCB93D-96DB-41A3-8816-1068469D792E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BCB93D-96DB-41A3-8816-1068469D792E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BCB93D-96DB-41A3-8816-1068469D792E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BCB93D-96DB-41A3-8816-1068469D792E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B47D149-0F75-4EC9-9D73-EE8CBD604034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B47D149-0F75-4EC9-9D73-EE8CBD604034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B47D149-0F75-4EC9-9D73-EE8CBD604034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B47D149-0F75-4EC9-9D73-EE8CBD604034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DE537D7-B84D-45E5-A828-FA676E6070A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE537D7-B84D-45E5-A828-FA676E6070A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE537D7-B84D-45E5-A828-FA676E6070A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE537D7-B84D-45E5-A828-FA676E6070A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D024B811-4468-4666-970A-89210156E624} = {916AC9C6-09AC-450D-87B5-39C95BF6E5D0}
+		{94BCB93D-96DB-41A3-8816-1068469D792E} = {276E2213-9E84-462D-BA7F-00B4CD977A39}
+		{6B47D149-0F75-4EC9-9D73-EE8CBD604034} = {B9C3554B-0215-49B5-9266-6D6A3839B05F}
+		{2DE537D7-B84D-45E5-A828-FA676E6070A1} = {ADF41AFF-531C-4708-889B-07EC07E773D9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AEBD567-10F3-4EC4-9427-CBB6635693FA}
+	EndGlobalSection
+EndGlobal

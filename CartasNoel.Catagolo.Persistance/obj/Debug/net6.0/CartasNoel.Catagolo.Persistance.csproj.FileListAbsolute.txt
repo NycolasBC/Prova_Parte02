@@ -1,0 +1,15 @@
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Persistance\obj\Debug\net6.0\CartasNoel.Catagolo.Persistance.csproj.AssemblyReference.cache
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Persistance\obj\Debug\net6.0\CartasNoel.Catagolo.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Persistance\obj\Debug\net6.0\CartasNoel.Catagolo.Persistance.AssemblyInfoInputs.cache
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Persistance\obj\Debug\net6.0\CartasNoel.Catagolo.Persistance.AssemblyInfo.cs
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Persistance\obj\Debug\net6.0\CartasNoel.Catagolo.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Persistance\bin\Debug\net6.0\CartasNoel.Catagolo.Persistance.deps.json
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Persistance\bin\Debug\net6.0\CartasNoel.Catagolo.Persistance.dll
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Persistance\bin\Debug\net6.0\CartasNoel.Catagolo.Persistance.pdb
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Persistance\bin\Debug\net6.0\CartasNoel.Catagolo.Domain.dll
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Persistance\bin\Debug\net6.0\CartasNoel.Catagolo.Domain.pdb
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Persistance\obj\Debug\net6.0\CartasNoel.Catagolo.Persistance.csproj.CopyComplete
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Persistance\obj\Debug\net6.0\CartasNoel.Catagolo.Persistance.dll
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Persistance\obj\Debug\net6.0\refint\CartasNoel.Catagolo.Persistance.dll
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Persistance\obj\Debug\net6.0\CartasNoel.Catagolo.Persistance.pdb
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Persistance\obj\Debug\net6.0\ref\CartasNoel.Catagolo.Persistance.dll

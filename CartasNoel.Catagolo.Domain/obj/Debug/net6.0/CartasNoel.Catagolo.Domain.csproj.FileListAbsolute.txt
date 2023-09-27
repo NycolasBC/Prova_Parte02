@@ -1,0 +1,12 @@
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Domain\bin\Debug\net6.0\CartasNoel.Catagolo.Domain.deps.json
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Domain\bin\Debug\net6.0\CartasNoel.Catagolo.Domain.dll
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Domain\bin\Debug\net6.0\CartasNoel.Catagolo.Domain.pdb
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Domain\obj\Debug\net6.0\CartasNoel.Catagolo.Domain.csproj.AssemblyReference.cache
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Domain\obj\Debug\net6.0\CartasNoel.Catagolo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Domain\obj\Debug\net6.0\CartasNoel.Catagolo.Domain.AssemblyInfoInputs.cache
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Domain\obj\Debug\net6.0\CartasNoel.Catagolo.Domain.AssemblyInfo.cs
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Domain\obj\Debug\net6.0\CartasNoel.Catagolo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Domain\obj\Debug\net6.0\CartasNoel.Catagolo.Domain.dll
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Domain\obj\Debug\net6.0\refint\CartasNoel.Catagolo.Domain.dll
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Domain\obj\Debug\net6.0\CartasNoel.Catagolo.Domain.pdb
+C:\Users\n\Documents\Repositorios\Uniaraxa\4° Periodo\Desenvolvimento Web\Provas\Prova_Parte2\CartasNoel.Catagolo.Domain\obj\Debug\net6.0\ref\CartasNoel.Catagolo.Domain.dll

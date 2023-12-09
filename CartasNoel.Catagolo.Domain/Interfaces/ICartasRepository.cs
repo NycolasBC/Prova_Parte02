@@ -9,7 +9,7 @@ namespace CartasNoel.Catalogo.Domain.Interfaces
 {
     public interface ICartasRepository
     {
-        public void AdicionarCartas(Cartas cartas);
-        public IEnumerable<Cartas> ObterTodasCartas();
+        public Task AdicionarCartas(Cartas cartas);
+        public Task<IEnumerable<Cartas>> ObterTodasCartas();
     }
 }

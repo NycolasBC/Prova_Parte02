@@ -1,5 +1,7 @@
-﻿using CartasNoel.Catalogo.Domain.Entities;
+﻿using CartasNoel.Catagolo.Persistance.EntityFramework;
+using CartasNoel.Catalogo.Domain.Entities;
 using CartasNoel.Catalogo.Domain.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -13,65 +15,78 @@ namespace CartasNoel.Catalogo.Data.Repository
     {
         #region - Atributos e Construtor
 
-        private readonly string _cartasCaminhoArquivo;
+        private readonly Contexto _contexto;
 
-        public CartasRepository()
+        public CartasRepository(Contexto contexto)
         {
-            _cartasCaminhoArquivo = Path.Combine(Directory.GetCurrentDirectory(), "FileJsonData", "cartas.json");
+            _contexto = contexto;
         }
 
         #endregion
+
 
         #region - Funções de repositorio
 
-        public void AdicionarCartas(Cartas produto)
+        public async Task AdicionarCartas(Cartas cartas)
         {
-            List<Cartas> cartas = new List<Cartas>();
-            int proximoCodigo = ObterProximoCodigoDisponivel();
-            cartas.Add(produto);
-            EscreverCartasNoArquivo(cartas);
+            try
+            {
+                await _contexto.Cartas.AddAsync(cartas);
+                await _contexto.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Erro ao inserir a carta: {ex.Message}");
+            }
         }
 
-        public IEnumerable<Cartas> ObterTodasCartas()
+        public async Task<IEnumerable<Cartas>> ObterTodasCartas()
         {
-            IEnumerable<Cartas> obter = LerCartasDoArquivo();
-            IEnumerable<Cartas> enumerar = obter;
-            return enumerar;
+            try
+            {
+                return await _contexto.Cartas.ToListAsync();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Erro ao buscar as cartas: {ex.Message}");
+            }
         }
 
         #endregion
 
-        #region - Funções do arquivo
-        private IEnumerable<Cartas> LerCartasDoArquivo()
-        {
-            if (!System.IO.File.Exists(_cartasCaminhoArquivo))
-            {
-                return new List<Cartas>();
-            }
 
-            string json = System.IO.File.ReadAllText(_cartasCaminhoArquivo);
-            return JsonConvert.DeserializeObject<IEnumerable<Cartas>>(json);
-        }
+        //#region - Funções do arquivo
 
-        private int ObterProximoCodigoDisponivel()
-        {
-            IEnumerable<Cartas> cartas = LerCartasDoArquivo();
-            if (cartas.Any())
-            {
-                return cartas.Max(c => c.Id) + 1;
-            }
-            else
-            {
-                return 1;
-            }
-        }
+        //private IEnumerable<Cartas> LerCartasDoArquivo()
+        //{
+        //    if (!System.IO.File.Exists(_cartasCaminhoArquivo))
+        //    {
+        //        return new List<Cartas>();
+        //    }
 
-        private void EscreverCartasNoArquivo(List<Cartas> cartas)
-        {
-            string json = JsonConvert.SerializeObject(cartas);
-            System.IO.File.WriteAllText(_cartasCaminhoArquivo, json);
-        }
+        //    string json = System.IO.File.ReadAllText(_cartasCaminhoArquivo);
+        //    return JsonConvert.DeserializeObject<IEnumerable<Cartas>>(json);
+        //}
 
-        #endregion
+        //private int ObterProximoCodigoDisponivel()
+        //{
+        //    IEnumerable<Cartas> cartas = LerCartasDoArquivo();
+        //    if (cartas.Any())
+        //    {
+        //        return cartas.Max(c => c.Id) + 1;
+        //    }
+        //    else
+        //    {
+        //        return 1;
+        //    }
+        //}
+
+        //private void EscreverCartasNoArquivo(List<Cartas> cartas)
+        //{
+        //    string json = JsonConvert.SerializeObject(cartas);
+        //    System.IO.File.WriteAllText(_cartasCaminhoArquivo, json);
+        //}
+
+        //#endregion
     }
 }

@@ -9,7 +9,7 @@ namespace CartasNoel.Catalogo.Application.Interfaces
 {
     public interface ICartasServices
     {
-        public void AdicionarCartas(NovasCartasViewModel carta);
-        public IEnumerable<CartasViewModel> ObterTodasCartas();
+        public Task AdicionarCartas(NovasCartasViewModel carta);
+        public Task<IEnumerable<CartasViewModel>> ObterTodasCartas();
     }
 }

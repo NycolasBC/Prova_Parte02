@@ -16,18 +16,20 @@ namespace H1Store.Catalogo.API.Controllers
 		}
 
 		[HttpPost(Name = "AdicionarCartas")]
-		public IActionResult Post(NovasCartasViewModel novaCartaViewModel)
+		public async Task<IActionResult> Post(NovasCartasViewModel novaCartaViewModel)
 		{
-            _cartasServices.AdicionarCartas(novaCartaViewModel);
+            await _cartasServices.AdicionarCartas(novaCartaViewModel);
 
-			return Ok();
+			return Ok("Cartas adicionadas com sucesso");
 		}
 
 
 		[HttpGet(Name = "ObterTodas")]
-		public IActionResult Get()
+		public async Task<IActionResult> Get()
 		{
-			return Ok(_cartasServices.ObterTodasCartas());
+			var cartas = await _cartasServices.ObterTodasCartas();
+
+            return Ok(cartas);
 		}
 	}
 }

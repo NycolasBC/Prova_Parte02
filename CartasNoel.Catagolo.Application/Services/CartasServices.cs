@@ -26,15 +26,16 @@ namespace CartasNoel.Catalogo.Application.Services
 
         #endregion
 
-        public void AdicionarCartas(NovasCartasViewModel carta)
+        public async Task AdicionarCartas(NovasCartasViewModel carta)
         {
             var novaCarta = _mapper.Map<Cartas>(carta);
-            _cartasRepository.AdicionarCartas(novaCarta);
+            await _cartasRepository.AdicionarCartas(novaCarta);
         }
 
-        public IEnumerable<CartasViewModel> ObterTodasCartas()
+        public async Task<IEnumerable<CartasViewModel>> ObterTodasCartas()
         {
-            return _mapper.Map<IEnumerable<CartasViewModel>>(_cartasRepository.ObterTodasCartas());
+            var cartas = await _cartasRepository.ObterTodasCartas();
+            return _mapper.Map<IEnumerable<CartasViewModel>>(cartas);
         }
     }
 }

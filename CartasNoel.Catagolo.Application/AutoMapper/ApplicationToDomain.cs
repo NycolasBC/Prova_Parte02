@@ -15,11 +15,29 @@ namespace H1Store.Catalogo.Application.AutoMapper
 		{
 
             CreateMap<CartasViewModel, Cartas>()
-			   .ConstructUsing(q => new Cartas(q.Id, q.Nome, q.EnderecoCarta, q.Idade, q.TextoCarta));
+			   .ConstructUsing(c => new Cartas(
+					c.Id, 
+					c.Nome, 
+					c.Rua, 
+					c.Numero,
+					c.Bairro,
+					c.Cidade,
+					c.UF,
+					c.Idade,
+					c.TextoCarta
+				));
 
 			CreateMap<NovasCartasViewModel, Cartas>()
-			   .ConstructUsing(q => new Cartas(0, q.Nome, q.EnderecoCarta, q.Idade, q.TextoCarta));
-
+			   .ConstructUsing(c => new Cartas(
+					c.Nome,
+					c.Rua,
+					c.Numero,
+					c.Bairro,
+					c.Cidade,
+					c.UF,
+					c.Idade,
+					c.TextoCarta
+                ));
 		}
 	}
 }
